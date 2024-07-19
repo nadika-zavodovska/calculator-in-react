@@ -1,7 +1,5 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from 'react';
+import './App.css';
 
 function App() {
   
@@ -9,8 +7,8 @@ function App() {
   return (
    <div className="calculator-grid">
     <div className="output">
-      <div className="previous-operand"></div>
-      <div className="current-operand"></div>
+      <div className="previous-operand">123,123</div>
+      <div className="current-operand">123,123</div>
     </div>
     <button className="span-two">AC</button>
     <button>DEL</button>
@@ -35,4 +33,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
