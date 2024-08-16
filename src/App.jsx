@@ -3,7 +3,7 @@ import './App.css';
 
 const ACTIONS = {
   ADD_DIGIT: "add-digit",
-  CHOOSE_OPERATION: "choose-digit",
+  CHOOSE_OPERATION: "choose-operation",
   CLEAR: "clear",
   DELETE_DIGIT: "delete-digit",
   EVALUATE: "evaluate"
@@ -46,7 +46,6 @@ function App() {
       <button>.</button>
       <button>0</button>
       <button className="span-two">=</button>
-
     </div>
   )
 }
